@@ -4,3 +4,4 @@ runs:
   using: 'composite'
   steps:
     - run: echo "Hello, world! This is my reusable action."
+      shell: bash
