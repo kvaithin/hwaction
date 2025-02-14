@@ -1,0 +1,6 @@
+name: 'Hello Action'
+description: 'Says hello!'
+runs:
+  using: 'composite'
+  steps:
+    - run: echo "Hello, world! This is my reusable action."
